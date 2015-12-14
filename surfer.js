@@ -38,7 +38,6 @@ function downloadImg(urlList, url) {
     for (let key of urlList) {
     	doDownload(key, url);
     }
-    doDownload(urlList, url);
 }
 
 function doDownload(src, url) {
