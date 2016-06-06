@@ -120,7 +120,7 @@ function doDownload(url, local) {
         fs.writeFile(bugName, url, (err) => console.log("bug:", bugName));
         return;
     }
-    suffixName = fileName.pop().replace(/\?.*/, "").match(suffixReg).pop();
+    let suffixName = fileName.pop().replace(/\?.*/, "").match(suffixReg).pop();
     url = local + url;
     if (!imgForFucked.includes(url)) {
         currentImgCount++;

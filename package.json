@@ -1,0 +1,29 @@
+{
+  "name": "surfer",
+  "version": "1.0.0",
+  "description": "俺的爬虫",
+  "main": "surfer",
+  "scripts": {
+    "test": "23333",
+    "start": "node surfer.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jiasm/Surfer.git"
+  },
+  "keywords": [
+    "surfer",
+    "nodejs"
+  ],
+  "author": "jiasm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jiasm/Surfer/issues"
+  },
+  "homepage": "https://github.com/Jiasm/Surfer#readme",
+  "devDependencies": {
+    "cheerio": "^0.20.0",
+    "node-uuid": "^1.4.7",
+    "superagent": "^1.8.3"
+  }
+}
